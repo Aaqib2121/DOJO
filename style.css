@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {scroll-behavior: smooth;}
+
+body{
+    font-size: 16px;
+    overflow-x: hidden;
+    padding-top: 60px;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+}
+
+/* HEADER-START */
+.banner-text{
+    color: orangered;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.bg-color{
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    color: black;
+    padding-left: 80px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen{
+    .navbar-light .navbar-toggler {
+        color: whitesmoke;
+        border-color: black;
+    }
+    .navbar-toggler:focus, .navbar-toggler:hover {
+        text-decoration: none;
+    }
+    .navbar-toggler {
+        padding: 10px;
+        font-size: 1.15rem;
+        line-height: 1;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        border-radius: .25rem;
+    }
+}
+/* HEADER-END */
+
+@media screen {
+    /* BANNER-START */
+.btn{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+.device-watch-video{
+    width: 630px;
+    background-color: cyan;
+}
+/* banner-end */
+
+
+/* leasting-start */
+.square-box{
+    max-width: 900px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.leasting-img-text{
+    padding-top: 50px;
+    padding-left: 27px;
+    color: #031522;
+}
+
+
+.media-img{
+    padding-top: 50px;
+}
+/* leasting-end */
+
+@media screen {
+    
+}
+/* Awessome-start */
+.awessome-square-box{
+    width: 400px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    background-color: blueviolet;
+}
+
+.awessome-text{
+    font-size: 43px;
+}
+
+.awessome-shift{
+    margin-left: 180px;
+    width: 1000px;
+    padding-left: 60px;
+}
+
+.awessome2-square-box{
+    width: 400px;
+    height: 650px;
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+}
+
+
+.awessome-text2{
+    font-size: 50px;
+    padding-bottom: 120px;
+}
+/* Awessome-end */
+
+@media screen {
+    /* feature-start */
+.feature-img{
+    padding-top: 70px;
+}
+
+.feature-square-box{
+    max-width: 1000px;
+    border: 4px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.feature-img-text{
+    color: #031522;
+}
+
+.feature-text{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.feature-play-store{
+    padding-top: 360px;
+}
+/* feature-end */
+}
+
+/* about-start */
+.about-text{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    color: peru;
+    padding-top: 50px;
+}
+
+/* stuff-start */
+.stuff-text{
+    padding-top: 170px;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: orange;
+}
+/* stuff-end */
+
+/* footer-start */
+.footer{
+    color: white;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.footer-title{
+    padding-bottom: 20px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom{
+    padding: 90px
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.footer-items{
+    padding-bottom: 8px;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.footercolor{
+    font-size: 23px;
+}
+
+.footercolor i{
+    color: green;
+}
+/* footer-end */
+}
+
